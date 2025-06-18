@@ -14,6 +14,9 @@ import mangodb from './assets/mangodb.png';
 import nodejs from './assets/node.png';
 import react from './assets/react.png'
 import HeroImage from './assets/Myimage.jpg';
+import Desktop1 from './assets/portfolio/Desktop1.png';
+import reactParallax from './assets/portfolio/reactParallax.png';
+import arrayDestruct from './assets/portfolio/arrayDestruct.png';
 function App() {
   const Data = {
     Home: {
@@ -38,7 +41,7 @@ function App() {
       id: 1,
       src: {
         project: {
-          img1: "src/assets/portfolio/Desktop1.png",
+          img1: Desktop1,
         },
       },
     },
@@ -46,7 +49,7 @@ function App() {
       id: 2,
       src: {
         project: {
-          img1: "src/assets/portfolio/reactParallax.png",
+          img1: reactParallax,
         },
       },
     },
@@ -54,7 +57,7 @@ function App() {
       id: 2,
       src: {
         project: {
-          img1: "src/assets/portfolio/arrayDestruct.png",
+          img1:arrayDestruct ,
         },
       },
     }
